@@ -1,0 +1,38 @@
+.testimonios{
+    display: flex;
+    gap: 20px;
+    margin-top: 1rem;
+}
+
+.testimonio{
+    width: 336px;
+    border: 0.5px solid #745353;
+    border-radius: 20px;
+    margin-top: 3rem;
+
+
+}
+
+.testimonio__text{
+        margin: 20px;
+        min-height: 84px;
+}
+
+.cliente{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img{
+        width: 48px;
+        height: 48px;
+    }
+}
+
+.profesion{
+    color: #745353;
+    margin-top: 0px;
+}
+
+.cliente__info{
+    margin-left: 10%;
+}
